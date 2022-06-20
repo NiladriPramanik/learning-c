@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <conio.h>
+
 int main()
 {
     float bp , da  ,hra , gp ;
@@ -11,5 +13,6 @@ printf("Basic Salary of Ramesh = %f\n" , bp ) ;
 printf("Darkness allowance = %f\n" , da) ;
 printf ("House Rent allowence = %f\n" , hra );
 printf("Gross Pay of Ramesh =%f\n" ,gp);
+getch();
 return 0;
 }
