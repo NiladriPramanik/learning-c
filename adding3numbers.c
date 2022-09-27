@@ -1,11 +1,16 @@
 #include<stdio.h>
-int main() 
+int main()
 {
-    int a , b , c , d  ;
-    printf("enter 3 numbers to add(can be +ve or -ve):");
-    scanf("%d %d %d",&a,&b,&c);
-    d=a+b+c;
-    printf("%d + %d + %d = %d",a,b,c,d);
-    return 0;
-
+    int x ;
+    printf("enter the number");
+    scanf("%d,&x");
+    if (x>0)
+    {
+    printf("number is positive");
+    }
+    if (x<=0)
+    {
+    printf("number is negative");
+    }
+    
 }
