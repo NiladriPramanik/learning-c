@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &day, &month);
 
     
-    if (month < 1 || month > 12 || day < 1 || day > 31) {
+    if (month < 1 || month > 12 || day  < 1 || day > 31) {
         printf("Invalid date.\n");
         return 1;
     }
